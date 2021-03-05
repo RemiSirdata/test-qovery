@@ -3,6 +3,9 @@ application:
   name: "test-qovery"
   project: "show-me-what-you-can"
   organization: "QoveryCommunity"
+  publicly_accessible: true
+  port: 8080
+  start_timeout: 1m
 databases:
 - type: "REDIS"
   name: "db"
